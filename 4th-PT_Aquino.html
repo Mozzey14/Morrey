@@ -1,0 +1,67 @@
+<html>
+	<head>
+		<title>Computer PT</title>
+	</head>
+<body>
+<style>
+* {
+margin:0;
+padding:0;
+}
+.nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px;
+background-color:cyan;
+border-radius:15px 0px 5px;
+}
+.images{
+	width:100px;
+	height:100px;
+}
+.nav ul li{
+	display:inline-block;
+	list-style-type:none;
+	margin-left:20px;
+	
+}
+.nav ul li a{
+	text-decoration:none;
+	color:black;
+	font-weight:bold;
+}
+.nav ul li a:hover{
+	color:White;
+}
+.content{
+	display:grid;
+	grid-template-columns:1fr 1fr;
+	grid-template-rows:500px 500px 500px;
+}
+</style>
+	<div class=nav>
+	<div class=logo><img src=logo.png class=images> </div>
+	<ul>
+		<li><a href="#about">MENU/HOME</a></li>
+		<li><a href="#about1">ABOUT PAGE</a></li>
+		<li><a href="#about2">GAMES I LIKE</a></li>
+		<li><a href="#about3">SUBJECTS</a></li>
+		<li><a href="#about4">HOBBIES</a></li>
+	</ul>
+	
+	</div>
+<div class=content>
+	<div class=mypic style=background-color:blue;><img src=logo.png></div>
+	<div class=about id="about" style=background-color:blue;><p><b>This is My COMPUTER PT 4TH QUARTER</p></b></div>
+	<div class=mypic style=background-color:blue;><img src=logo.png></div>
+	<div class=about id=about1 style=background-color:blue;><p><b>This is About the things I putted that i use to my life</p></b></div>
+	<div class=mypic style=background-color:teal;><img src=controller.png class=images></div>
+	<div class=about id=about2 style=background-color:teal;><p><b>I LIKE CSGO, Geometry Dash, MINECRAFT.</p></b></div>
+	<div class=mypic style=background-color:cyan;><img src=schedule.png></div>
+	<div class=about  id=about3 style=background-color:cyan;><p><b>Subjects</p></b></div>
+	<div class=mypic style=background-color:blue;><img src=game.jpg></div>
+	<div class=about  id=about4 style=background-color:Blue;><p><b>MY HOBBIES</p></b></div>
+</div>
+</body>
+</html>
